@@ -1,0 +1,14 @@
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\bin\Debug\WpfYP01lab2.exe
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\bin\Debug\WpfYP01lab2.pdb
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.csproj.AssemblyReference.cache
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\MainWindow.g.cs
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\App.g.cs
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2_MarkupCompile.cache
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2_MarkupCompile.lref
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\MainWindow.baml
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.g.resources
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.Properties.Resources.resources
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.csproj.GenerateResource.cache
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.exe
+C:\Users\Никита\Documents\BDKolledz\WpfYP01lab2\WpfYP01lab2\obj\Debug\WpfYP01lab2.pdb
