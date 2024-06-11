@@ -1,0 +1,15 @@
+D:\МДК\LabN3\LabN3\bin\Debug\LabN3.exe.config
+D:\МДК\LabN3\LabN3\bin\Debug\LabN3.exe
+D:\МДК\LabN3\LabN3\bin\Debug\LabN3.pdb
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.csproj.AssemblyReference.cache
+D:\МДК\LabN3\LabN3\obj\Debug\MainWindow.g.cs
+D:\МДК\LabN3\LabN3\obj\Debug\App.g.cs
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3_MarkupCompile.cache
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3_MarkupCompile.lref
+D:\МДК\LabN3\LabN3\obj\Debug\MainWindow.baml
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.g.resources
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.Properties.Resources.resources
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.csproj.GenerateResource.cache
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.csproj.CoreCompileInputs.cache
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.exe
+D:\МДК\LabN3\LabN3\obj\Debug\LabN3.pdb

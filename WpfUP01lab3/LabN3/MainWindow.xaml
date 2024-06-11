@@ -1,0 +1,41 @@
+﻿<Window x:Class="LabN3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabN3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Height="30" Width="50" HorizontalAlignment="Left" Content=" X="></Label>
+        <Label Grid.Row="1" Height="30" Width="50" HorizontalAlignment="Left" Content=" Y="></Label>
+        <Label Grid.Row="2" Height="30" Width="50" HorizontalAlignment="Left" Content=" Z="></Label>
+        
+        <TextBox x:Name="TbXEnter" Grid.Row="0" Height="30" Width="110"></TextBox> 
+        <TextBox x:Name="TbYEnter" Grid.Row="1" Height="30" Width="110"></TextBox> 
+        <TextBox x:Name="TbZEnter" Grid.Row="2" Height="30" Width="110"></TextBox>
+
+        <TextBox x:Name="TbOutput" Grid.Row="3" Grid.ColumnSpan="2" Height="130" Width="340"></TextBox>
+
+        <Button x:Name="Solve" Grid.Row="4" Height="30" Width="90" HorizontalAlignment="Left" Margin=" 26,0" Content="Пуск" Click="Решить_Click"></Button>
+        <Button x:Name="Clear" Grid.Row="4" Grid.Column="1" Height="30" Width="90" HorizontalAlignment="right" Margin=" 26,0" Content="Очистить" Click="Clear_Click"></Button>
+       <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,10,0,0">
+            <RadioButton x:Name="RBshx" Content="sh(x)" IsChecked="True"></RadioButton>
+            <RadioButton x:Name="RBx2" Content="x^2"></RadioButton>
+            <RadioButton x:Name="RBex" Content="e^x"></RadioButton>
+       </StackPanel>
+    </Grid>
+</Window>
