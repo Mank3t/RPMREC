@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPFLabN4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFLabN4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400" Background="LightGray">
+    <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Height="30" Width="50" HorizontalAlignment="Left" Content=" X0="></Label>
+            <Label Grid.Row="1" Height="30" Width="50" HorizontalAlignment="Left" Content=" XK="></Label>
+            <Label Grid.Row="2" Height="30" Width="50" HorizontalAlignment="Left" Content=" DX="></Label>
+
+            <TextBox x:Name="TbX0Enter" Grid.Row="0" Height="30" Width="110"></TextBox>
+            <TextBox x:Name="TbXKEnter" Grid.Row="1" Height="30" Width="110"></TextBox>
+            <TextBox x:Name="TbDXEnter" Grid.Row="2" Height="30" Width="110"></TextBox>
+
+        <Label Grid.Row="0" Grid.Column="1" Height="30" Width="50" HorizontalAlignment="Left" Content=" A="></Label>
+        <Label Grid.Row="1" Grid.Column="1" Height="30" Width="50" HorizontalAlignment="Left" Content=" B="></Label>
+        <Label Grid.Row="2" Grid.Column="1" Height="30" Width="50" HorizontalAlignment="Left" Content=" C="></Label>
+
+        <TextBox x:Name="TbAEnter" Grid.Row="0" Grid.Column="1" Height="30" Width="110"></TextBox>
+        <TextBox x:Name="TbBEnter" Grid.Row="1" Grid.Column="1" Height="30" Width="110"></TextBox>
+        <TextBox x:Name="TbCEnter" Grid.Row="2" Grid.Column="1" Height="30" Width="110"></TextBox>
+
+        <TextBox x:Name="TbOutput" Grid.Row="3" Grid.ColumnSpan="2" Height="130" Width="340" IsReadOnly="True"></TextBox>
+
+            <Button x:Name="Solve" Grid.Row="4" Height="30" Width="90" HorizontalAlignment="Left" Margin=" 26,0" Content="Пуск" Click="Solve_Click"></Button>
+            <Button x:Name="Clear" Grid.Row="4" Grid.Column="1" Height="30" Width="90" HorizontalAlignment="right" Margin=" 26,0" Content="Очистить" Click="Clear_Click"></Button>
+
+
+
+    </Grid>
+</Window>
