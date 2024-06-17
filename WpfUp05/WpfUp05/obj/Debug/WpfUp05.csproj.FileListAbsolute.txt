@@ -1,0 +1,14 @@
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\bin\Debug\WpfUp05.exe
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\bin\Debug\WpfUp05.pdb
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.csproj.AssemblyReference.cache
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\MainWindow.g.cs
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\App.g.cs
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05_MarkupCompile.cache
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05_MarkupCompile.lref
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\MainWindow.baml
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.g.resources
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.Properties.Resources.resources
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.csproj.GenerateResource.cache
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.exe
+C:\Users\Никита\Documents\BDKolledz\WpfUp05\WpfUp05\obj\Debug\WpfUp05.pdb
