@@ -1,0 +1,64 @@
+﻿<Window 
+    x:Class="Para1.Windows.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Para1.Windows"
+        mc:Ignorable="d"
+        Title="Заявки" Height="450" Width="1200" >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="2" Width="auto" ColumnWidth="*" AutoGenerateColumns="False">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="Имя"></DataGridTextColumn>
+                <DataGridTextColumn Header="Фаммилия"></DataGridTextColumn>
+                <DataGridTextColumn Header="Телефон"></DataGridTextColumn>
+                <DataGridTextColumn Header="Тип техники"></DataGridTextColumn>
+                <DataGridTextColumn Header="Модель"></DataGridTextColumn>
+                <DataGridTextColumn Header="Приоритет"></DataGridTextColumn>
+                <DataGridTextColumn Header="Имя мастера"></DataGridTextColumn>
+                <DataGridTextColumn Header="Фаммилия мастера"></DataGridTextColumn>
+                <DataGridTextColumn Header="Описание проблемы"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="BCloseZayav" Height="40" Width="90" Margin="15" Click="BCloseZayav_Click" >Закрыть</Button>
+        </StackPanel>
+
+        <StackPanel  Orientation="Horizontal">
+            <TextBox Width="200" Height="40" HorizontalAlignment="Left" Margin="20"></TextBox>
+            <TextBox Width="200" Height="40" HorizontalAlignment="Left"></TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Orientation="Horizontal" >
+            <ComboBox Width="200" Height="40" Margin="20">
+                <TextBlock>Телевизор</TextBlock>
+                <TextBlock>Утюг</TextBlock>
+                <TextBlock>Да</TextBlock>
+            </ComboBox>
+            
+            <ComboBox Width="200" Height="40">
+                <TextBlock>Высшая срочность</TextBlock>
+                <TextBlock>Срочно</TextBlock>
+                <TextBlock>Не к спеху</TextBlock>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+            <Button x:Name="BAddWinOpen"  Height="40" Width="90" Margin="15" Click="BAddWinOpen_Click">Добавить</Button>
+            <Button x:Name="BOtchWinOpen" Height="40" Width="90" Click="BOtchWinOpen_Click"   >Отчёты</Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>
