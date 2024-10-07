@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>TBBTPlayert0._5</RootNamespace>
     <AssemblyName>TBBTPlayert0.5</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -93,6 +93,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resourses\Pictures\TBBTMainwinphoto2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Pictures\ArrowRight.png" />
+    <Resource Include="Resourses\Pictures\ProfileImg.png" />
+    <Resource Include="Resourses\Pictures\SearchImage.png" />
+    <Resource Include="Resourses\Pictures\ArrowRightInCIrcle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Pictures\TBBTLogoNorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Pictures\TBBTNameWithLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
