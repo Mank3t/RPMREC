@@ -22,5 +22,41 @@ namespace TBBTPlayert0._5
         {
             InitializeComponent();
         }
+
+        private void TBSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void RctOpenS1Ser1_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+
+
+        private void TBSearch_PreviewKeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                TextBox TBsearch = (TextBox)sender;
+                Keyboard.ClearFocus();
+                string addStr = " Найти серию";
+                if (TBSearch.Text == "")
+                {
+                    TBSearch.Text = addStr;
+                }
+            }
+        }
+
+        private void TBSearch_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            string tbsearchtext = (TBSearch.Text);
+            string clearStr = " Найти серию";
+            if (tbsearchtext == clearStr)
+            {
+                TBSearch.Clear();
+            }
+        }
     }
 }

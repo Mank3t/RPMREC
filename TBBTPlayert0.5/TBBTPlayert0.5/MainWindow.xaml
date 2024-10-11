@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TBBTPlayert0._5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280">
+        Title="MainWindow" Height="720" Width="1282">
     <Grid Background="#33251A">
 
         <Grid.RowDefinitions>
@@ -27,7 +27,7 @@
 
         <!--Визуальные элементы-->
 
-        <Image Grid.ColumnSpan="2" Source="C:\Users\student\Documents\GabenLoser\TBBTPlayert0.5\TBBTPlayert0.5\Resourses\Pictures\TBBTNameWithLogo.png" HorizontalAlignment="Left"></Image>
+        <Image Grid.ColumnSpan="2" Source="Resourses\Pictures\TBBTNameWithLogo.png" HorizontalAlignment="Left"></Image>
         
         <Ellipse Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" >
             <Ellipse.Fill>
@@ -61,7 +61,18 @@
         </Rectangle>
 
             <!--Функциональные элементы-->
-        <TextBox Grid.Column="3" Grid.ColumnSpan="2" Width="250" Height="30" HorizontalAlignment="Right" Margin="10,0" Background="#dcccad" Text=" Найти серию" FontSize="15" Foreground="#8d6542" VerticalContentAlignment="Center">
+
+        <Label Grid.Row="3" Content="Сезоны и серии" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0" HorizontalContentAlignment="Center" Foreground="#dbcba9" FontSize="15"></Label>
+        <Label Grid.Row="3" Grid.ColumnSpan="2" Content="Больше о cериале" HorizontalAlignment="Left" Margin="150,5" VerticalAlignment="Center" HorizontalContentAlignment="Center" Foreground="#dbcba9" FontSize="15"></Label>
+        <Label Grid.Row="3" Grid.Column="1" Content="Фандом" HorizontalAlignment="Left" Margin="80,0" VerticalAlignment="Center" HorizontalContentAlignment="Center" Foreground="#dbcba9" FontSize="15"></Label>
+
+        <Label Content="Сезон 1 Серия 1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="#A49787" FontSize="15" ></Label>
+        <Label Content="Сезон 1 Серия 2" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="#A49787" FontSize="15" ></Label>
+        <Label Content="Сезон 1 Серия 3" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="#A49787" FontSize="15" ></Label>
+        <Label Content="Сезон 1 Серия 4" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="#A49787" FontSize="15" ></Label>
+        <Label Content="Сезон 1 Серия 5" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="#A49787" FontSize="15" ></Label>
+        <Image Grid.Column="5" Source="Resourses\Pictures\ProfileImg.png" Margin="5" Height="35" Width="35"></Image>
+        <TextBox x:Name="TBSearch" Grid.Column="3" Grid.ColumnSpan="2" Width="250" Height="30" HorizontalAlignment="Right" Margin="10,0" Background="#dcccad" Text=" Найти серию" FontSize="15" Foreground="#8d6542" VerticalContentAlignment="Center" TextChanged="TBSearch_TextChanged" GotKeyboardFocus="TBSearch_GotKeyboardFocus" PreviewKeyUp="TBSearch_PreviewKeyUp">
             <TextBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"/>
@@ -69,7 +80,7 @@
             </TextBox.Resources>
         </TextBox>
 
-        <Rectangle Grid.Column="0" Grid.Row="4" RadiusX="20" RadiusY="20"  Margin="20,30">
+        <Rectangle x:Name="RctOpenS1Ser1" Grid.Column="0" Grid.Row="4" RadiusX="20" RadiusY="20"  Margin="20,30" MouseDown="RctOpenS1Ser1_MouseDown">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="Resourses\Pictures\TBBTMainwinphoto2.jpg"/>
             </Rectangle.Fill>
