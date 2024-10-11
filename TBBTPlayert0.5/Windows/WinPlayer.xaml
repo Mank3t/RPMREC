@@ -1,0 +1,36 @@
+﻿<Window x:Class="TBBTPlayert0._5.Windows.WinPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TBBTPlayert0._5.Windows"
+        mc:Ignorable="d"
+        Title="WinPlayer" Height="450" Width="800" Background="#AD713B" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <MediaElement x:Name="PlayerMedia" Width="750"  VerticalAlignment="Top" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" LoadedBehavior="Manual" MediaOpened="MediaOpened" Source="\Resourses\Video\Трейлер.mp4"/>
+        <Button x:Name="PausePlayBut" Grid.Column="1" Content="▶" Background="#33251A" Foreground="#c9ab8f" Height="37" Width="37" VerticalAlignment="Center" Grid.Row="1" HorizontalAlignment="Left" Margin="20,0" Click="PausePlayBut_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <!-- Я не знаю как поменять цвет ползунка-->
+        <Slider x:Name="valueSli" Grid.Row="1" Grid.Column="3" Foreground="#c9ab8f" HorizontalAlignment="Right" VerticalAlignment="Center" Width="100" Maximum="1" Minimum="0" SmallChange="0.05" ValueChanged="valueSli_ValueChanged"></Slider>
+        <Slider x:Name="PlayerControl" Grid.Row="1" Grid.Column="2" Foreground="#c9ab8f" HorizontalAlignment="Center" VerticalAlignment="Center" Maximum="1" Width="550" ValueChanged="PlayerControl_ValueChanged" SmallChange="0"></Slider>
+
+    </Grid>
+</Window>

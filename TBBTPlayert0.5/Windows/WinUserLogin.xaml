@@ -1,0 +1,41 @@
+﻿<Window x:Class="TBBTPlayert0._5.Windows.WinUserLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TBBTPlayert0._5.Windows"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="250" Width="260"   WindowStyle="None" AllowsTransparency="True"  Background="Transparent" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions >
+        <Rectangle Grid.RowSpan="3" Fill="#7F6145"></Rectangle>
+        <Label x:Name="RegisterLab" Content="Введите логин"  Grid.Row="0" FontSize="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+        <TextBox x:Name="LoginTB" Grid.Row="1" Width="175" Height="40" Background="#c9ab8f" BorderThickness="0" VerticalAlignment="Top" FontSize="23" HorizontalAlignment="Center">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+        <Button x:Name="EnterBut" Content="Продолжить" Background="#3d2e1b" Foreground="#efe5d3" Grid.Row="2" Width="175" Height="40" FontSize="23" BorderThickness="0" VerticalAlignment="Top" Click="EnterBut_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="BRegistr"  Content="Регистрация"  Grid.Row="2" Width="175" Height="40" FontSize="23" VerticalAlignment="Bottom" Background="#7F6145" BorderThickness="0"  Click="BRegistr_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="BCloseRegWin" Width="50" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Background="IndianRed" Click="BCloseRegWin_Click"></Button>
+    </Grid>
+</Window>
