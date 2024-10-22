@@ -1,0 +1,27 @@
+use CreativeStore
+select OrderNumber, UserName, Surname, LastName, OrderDate, DeliveryDate, ProdName, Ammount, Price, ReciveCode, PickUpPointCode,CityName, StreetName, HouseNumber
+from Orders, OrderProducts, Users, Products, PickUpPoints
+where OrderProducts.IDOrder = Orders.IDOrder and
+ PickUpPoints.IDPickUpPoint = Orders.IDPickUpPoint and
+Users.IDUser = Orders.IDUser and 
+Products.IDProduct = OrderProducts.IDProduct and
+Users.UserName = 'София';
+
+select [Колво товар в заказах], Article,ProdName, Price, ProdDescription, MeasureUnitName, ManufName, ProviderName, Discount, MaxDiscount
+from (select count(IDProduct) as [Колво товар в заказах], IDProduct from OrderProducts group by IDProduct)
+as [MaxProdInOrders], Products, Providers, Manufacturer, MeasureUnit, ProdCategory
+where Products.IDProduct = [MaxProdInOrders].IDProduct and
+[Колво товар в заказах] = (select max([Колво товар в заказах]) from (select count(IDProduct) as [Колво товар в заказах], IDProduct from OrderProducts group by IDProduct)as CheckMax) and
+ Products.IDProvider = Providers.IDProvider and
+Products.IDManufacturer = Manufacturer.IDManufacturer and
+Products.IDMeasureUnit = MeasureUnit.IDMeasureUnit and
+Products.IDProdCategory = ProdCategory.IDProdCategory
+
+
+select Article, ProdName, MeasureUnitName, ManufName, ProviderName, Price, Discount, MaxDiscount
+from Products, Providers, Manufacturer, MeasureUnit, ProdCategory
+where Products.IDProvider = Providers.IDProvider and
+Products.IDManufacturer = Manufacturer.IDManufacturer and
+Products.IDMeasureUnit = MeasureUnit.IDMeasureUnit and
+Products.IDProdCategory = ProdCategory.IDProdCategory and
+ProviderName = 'Леонардо';
