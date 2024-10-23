@@ -1,0 +1,14 @@
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.csproj.AssemblyReference.cache
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\MainWindow.g.cs
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\App.g.cs
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii_MarkupCompile.cache
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii_MarkupCompile.lref
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\bin\Debug\GKDorogiRossii.exe
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\bin\Debug\GKDorogiRossii.pdb
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\MainWindow.baml
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.g.resources
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.Properties.Resources.resources
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.csproj.GenerateResource.cache
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.exe
+C:\Users\Никита\Documents\BDKolledz\GKDorogiRossii\GKDorogiRossii\obj\Debug\GKDorogiRossii.pdb
