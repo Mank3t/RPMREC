@@ -1,0 +1,57 @@
+ <Image Source="/Resource/pravoVpered.png" Name="IA" Canvas.Left="140" Canvas.Top="20" Width="100" Height="100" MouseLeftButtonDown="Image_MouseLeftButtonDown">
+                <Image.Triggers>
+
+
+                    <EventTrigger RoutedEvent="MouseEnter">
+                        <BeginStoryboard>
+                            <Storyboard>
+
+                                <DoubleAnimation Storyboard.TargetName="IA"
+                                                 Storyboard.TargetProperty="Opacity"
+                                                  To="0" Duration="0:0:1" AutoReverse="False"                                               
+                                                 >
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="IA"
+                                                 Storyboard.TargetProperty="Opacity"
+                                                 To="1" Duration="0:0:1" AutoReverse="False"                                               
+                                                 >
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Image.Triggers>
+            </Image>
+            <Image  Source="/Resource/pravoVperedKrasn.png" Opacity="0" Name="IB" Canvas.Left="140" Canvas.Top="20" Width="100" Height="100" MouseLeftButtonDown="Image_MouseLeftButtonDown">
+                <Image.Triggers>
+
+                    <EventTrigger RoutedEvent="MouseEnter">
+                        <BeginStoryboard>
+                            <Storyboard>
+
+                                <DoubleAnimation Storyboard.TargetName="IB"
+                                                 Storyboard.TargetProperty="Opacity"
+                                                  To="1" Duration="0:0:1" AutoReverse="False"                                               
+                                                 >
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="IB"
+                                                 Storyboard.TargetProperty="Opacity"
+                                                 To="0" Duration="0:0:1" AutoReverse="False"                                               
+                                                 >
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Image.Triggers>
+            </Image>
