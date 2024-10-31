@@ -1,0 +1,16 @@
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\bin\Debug\HospitalHype.exe.config
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\bin\Debug\HospitalHype.exe
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\bin\Debug\HospitalHype.pdb
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.csproj.AssemblyReference.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\MainWindow.g.cs
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\App.g.cs
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype_MarkupCompile.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype_MarkupCompile.lref
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\MainWindow.baml
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.g.resources
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.Properties.Resources.resources
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.csproj.GenerateResource.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.exe
+C:\Users\student\Documents\Кузнецов-Дергунов\HospitalHype\HospitalHype\obj\Debug\HospitalHype.pdb
