@@ -1,0 +1,65 @@
+﻿<Window x:Class="Dorogahype.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dorogahype"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Image">
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                                                 Storyboard.TargetProperty="Opacity"
+                                                  To="1" Duration="0:0:1" AutoReverse="False"                                               
+                                                 >
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                                                 Storyboard.TargetProperty="Opacity"
+                                                 To="0" Duration="0:0:1" AutoReverse="False"                                               
+                                                 >
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Canvas>
+            <Image Source="/Resource/pravoVpered.png" Name="IA" Canvas.Left="140" Canvas.Top="20" Width="100" Height="100" ></Image>
+            <Image  Source="/Resource/pravoVperedKrasn.png" Opacity="0" Name="IB" Canvas.Left="140" Canvas.Top="20" Width="100" Height="100">
+                </Image>
+            
+            <Image Source="/Resource/pravoVpered.png" Name="AA" Canvas.Left="10" Canvas.Top="20" Width="100" Height="100" ></Image>
+            <Image  Source="/Resource/pravoVperedKrasn.png" Opacity="0" Name="AB" Canvas.Left="10" Canvas.Top="20" Width="100" Height="100" >
+              </Image>
+
+            <Image  Canvas.Left="140" Canvas.Top="150" Width="100" Height="100" Source="Resource\RU_road_sign_1.18.svg.png"></Image>
+            <Image  Canvas.Left="140" Canvas.Top="150" Width="100" Height="100" Source="/Resource/1.18 invert.png" Opacity="0" >
+             </Image>
+
+            <Image  Canvas.Left="10" Canvas.Top="150" Width="100" Height="100" Source="Resource\RU_road_sign_1.18.svg.png"></Image>
+            <Image  Canvas.Left="10" Canvas.Top="150" Width="100" Height="100" Source="/Resource/1.18 invert.png" Opacity="0" >
+             </Image>
+
+            <Image  Canvas.Left="10" Canvas.Top="280" Width="100" Height="100" Source="Resource\RU_road_sign_1.15.svg.png"></Image>
+            <Image  Canvas.Left="10" Canvas.Top="280" Width="100" Height="100" Source="Resource\RU_road_sign_1.15_invert.png" Opacity="0" >
+            </Image>
+
+            <Image  Canvas.Left="140" Canvas.Top="280" Width="100" Height="100" Source="Resource\RU_road_sign_1.15.svg.png"></Image>
+            <Image  Canvas.Left="140" Canvas.Top="280" Width="100" Height="100" Source="Resource\RU_road_sign_1.15_invert.png" Opacity="0" >
+            </Image>
+
+             </Canvas>
+    </Grid>
+</Window>

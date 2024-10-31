@@ -1,0 +1,16 @@
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.csproj.AssemblyReference.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\MainWindow.g.cs
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\App.g.cs
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype_MarkupCompile.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype_MarkupCompile.lref
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\bin\Debug\Dorogahype.exe.config
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\bin\Debug\Dorogahype.exe
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\bin\Debug\Dorogahype.pdb
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\MainWindow.baml
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.g.resources
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.Properties.Resources.resources
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.csproj.GenerateResource.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.exe
+C:\Users\student\Documents\Кузнецов-Дергунов\Dorogahype\Dorogahype\obj\Debug\Dorogahype.pdb
