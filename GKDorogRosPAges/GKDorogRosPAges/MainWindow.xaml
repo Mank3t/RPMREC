@@ -1,0 +1,31 @@
+﻿<Window x:Class="GKDorogRosPAges.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GKDorogRosPAges"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="1" x:Name="NavigWin" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="1" NavigationUIVisibility="Hidden"></Frame>
+
+        </Grid>
+        <StackPanel>
+            <Button x:Name="CalendButtOp" Height="60" Margin="10" Click="CalendButtOp_Click" >Открыть календарь</Button>
+            <Button x:Name="IerarhyButtOp" Height="60" Margin="10" Click="IerarhyButtOp_Click">Открыть Иерархию</Button>
+            <Button Height="60" Margin="10"></Button>
+            <Button Height="60" Margin="10"></Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>
