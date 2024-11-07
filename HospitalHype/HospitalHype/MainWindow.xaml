@@ -5,7 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HospitalHype"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" >
+        Title="MainWindow" Height="2450" Width="800" >
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"></Setter>
+                </Style>
+            </Style.Resources>
+            <Setter Property="Text" Value=" Введите данные"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Control.FontFamily" Value="Verdana" />
+            <Setter Property="Control.Background" Value="White" />
+            <Setter Property="Control.Foreground" Value="Black" />
+            <Setter Property="Control.Margin" Value="5" />
+            <EventSetter Event="PreviewKeyUp" Handler="TBEnter_PreviewKeyUp"></EventSetter>
+            <EventSetter Event="GotKeyboardFocus" Handler="TBFocus_GotKeyboardFocus"></EventSetter>
+        </Style>
+    </Window.Resources>
     <Window.Background>
         <LinearGradientBrush EndPoint="0.7,1" StartPoint="0.5,0">
             <GradientStop Color="DeepSkyBlue"/>
@@ -25,76 +42,132 @@
      
             <Grid>
                 <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                <Label HorizontalAlignment="Stretch" Height="50" Content="Регистрация" Margin="10"></Label>
+                <Label HorizontalAlignment="Stretch" Height="50" Content="Регистрация" Margin="10" VerticalContentAlignment="Center" FontSize="30"></Label>
             </Grid>
-            <ScrollViewer Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <ScrollViewer Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Top" Orientation="Vertical">
-                
-                   <Grid>
+
+                <Grid>
                     <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                   </Grid>
-                
-                    <Grid>
-                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                    </Grid>
+                    <StackPanel Margin="10">
+                        <Label Content="Имя" Height="30"></Label>
+                        <TextBox Height="30" ></TextBox>
+                        <Label Content="Фамиллия" Height="30"></Label>
+                        <TextBox Height="30"></TextBox>
+                        <Label Content="Отчество" Height="30"></Label>
+                        <TextBox Height="30"></TextBox>
+                    </StackPanel>
+                </Grid>
 
-                    <Grid>
-                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                    </Grid>
-
-                    <Grid>
-                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                    </Grid>
-
-                    <Grid>
-                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                    </Grid>
-
-                    <Grid>
-                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                    </Grid>    
                 <Grid>
+                    <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                    <StackPanel Margin="10">
+                        <Label Content=" Номер Телефона" Height="30"></Label>
+                        <TextBox Height="30"></TextBox>
+                    </StackPanel>
+                </Grid>
+
+
+                <DockPanel HorizontalAlignment="Stretch">
+                    <Grid DockPanel.Dock="Left">
                         <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
                         <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
-                        </StackPanel>
-                    </Grid>     
-                <Grid>
-                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
-                        <StackPanel Margin="10">
-                            <Label Content=" Aboba" Height="30"></Label>
-                            <TextBox Height="30"></TextBox>
+                            <StackPanel HorizontalAlignment="Stretch">
+                                <Label Content=" Пол" Height="30"></Label>
+                                <ComboBox Width="100"></ComboBox>
+                            </StackPanel>
                         </StackPanel>
                     </Grid>
 
+                    <Grid DockPanel.Dock="Left">
+                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                        <StackPanel Margin="10" HorizontalAlignment="Stretch">
+                            <Label Content=" Электронная почта" Height="30"></Label>
+                            <TextBox Height="30"></TextBox>
+                        </StackPanel>
+                    </Grid>
+                </DockPanel>
 
-                </StackPanel>
+                <Grid>
+                    <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                    <StackPanel Margin="10">
+                        <Label Content=" Электронная почта" Height="30"></Label>
+                        <TextBox Height="30"></TextBox>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                    <StackPanel Margin="10">
+                        <Label Content=" Место Проживания" Height="30"></Label>
+                        <TextBox Height="30" Text=" Город"></TextBox>
+                        <TextBox Height="30" Text=" Улица"></TextBox>
+                        <TextBox Height="30" Text=" Дом"></TextBox>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                    <StackPanel Margin="10">
+                        <Label Content=" Паспортные данные" Height="30"></Label>
+                        <TextBox Height="30" Text=" Серия"></TextBox>
+                        <TextBox Height="30" Text=" Номер"></TextBox>
+                    </StackPanel>
+                </Grid>
+                <Grid>
+                    <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                    <StackPanel Margin="10">
+                        <Label Content=" Aboba" Height="30"></Label>
+                        <TextBox Height="30"></TextBox>
+                    </StackPanel>
+                </Grid>
+                <Grid>
+                    <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                    <StackPanel Margin="10">
+                        <Label Content=" Aboba" Height="30"></Label>
+                        <TextBox Height="30"></TextBox>
+                    </StackPanel>
+                </Grid>
+
+
+
+
+                <DockPanel>
+                    <Grid>
+                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                        <StackPanel Margin="10" Orientation="Horizontal">
+                            <StackPanel HorizontalAlignment="Stretch">
+                                <Label Content=" Дата рождения" Height="30"></Label>
+                                <Calendar></Calendar>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid DockPanel.Dock="Left">
+                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                        <StackPanel Margin="10" HorizontalAlignment="Stretch">
+                            <Label Content=" Фото" Height="30"></Label>
+                            <Image Height="200" Width="200"></Image>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid DockPanel.Dock="Left">
+                        <Rectangle Fill="GhostWhite" Stroke="GhostWhite" RadiusX="10" RadiusY="10" Margin="5"></Rectangle>
+                        <StackPanel Margin="10" HorizontalAlignment="Stretch">
+                            <Label Content=" QR-Код" Height="30"></Label>
+                            <Image Height="200" Width="200"></Image>
+                        </StackPanel>
+                    </Grid>
+                </DockPanel>
+
+
+
+
+
+
+
+
+            </StackPanel>
         </ScrollViewer>
-
     </Grid>
 </Window>

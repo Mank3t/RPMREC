@@ -24,5 +24,37 @@ namespace HospitalHype
         {
             InitializeComponent();
         }
+
+        private void TBEnter_PreviewKeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                MessageBox.Show("b");
+                TextBox tb = sender as TextBox;
+                if (tb != null) return ;
+                TextBox TBsearch = (TextBox)sender;
+                Keyboard.ClearFocus();
+                string addStr = " Введите данные";
+                if (tb.Text == "")
+                {
+                    tb.Text = addStr;
+                }
+            }
+        }
+
+        private void TBFocus_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            MessageBox.Show("a");
+            TextBox tb = sender as TextBox;
+            if (tb != null) return;
+            MessageBox.Show("a");
+            string tbsearchtext = (tb.Text);
+            string clearStr = " Введите данные";
+            if (tbsearchtext == clearStr)
+            {
+                tb.Clear();
+            }
+        }
+
     }
 }
